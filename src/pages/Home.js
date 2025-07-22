@@ -113,7 +113,7 @@ const Home = ({ navigate }) => {
             e.currentTarget.style.boxShadow = '0 6px 15px rgba(0, 123, 255, 0.4)';
           }}
         >
-          Fazer Reporte Anônima
+          Fazer Reporte Anônimo
         </button>
       </header>
 
