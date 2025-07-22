@@ -71,6 +71,10 @@ const DenunciaCard = ({ report }) => {
         <p className="card-text text-muted small mb-1">
           <strong>Localização:</strong> {report.location ? `${report.location.street}, ${report.location.neighborhood}` : 'N/A'}
         </p>
+        {/* Código de acompanhamento */}
+        <p className="card-text text-muted small mb-1">
+          <strong>Código:</strong> {report.codAcompanhamento ? `${report.codAcompanhamento}` : 'N/A'}
+        </p>
         {/* Data e hora da denúncia */}
         <p className="card-text text-muted small mb-1">
           <strong>Data:</strong> {formatTimestamp(report.timestamp)}
