@@ -113,7 +113,7 @@ const Denunciar = ({ navigate }) => {
             localStorage.setItem('lastSubmissionTime', currentTime.toString());
             setLastSubmissionTime(currentTime);
 
-            showCustomModal('Seu reporte foi enviado. Obrigado por colaborar com a cidade!', 'success');
+            showCustomModal('Seu reporte foi enviado. Código para acompanhamento:'+newReport.codAcompanhamento, 'success');
 
             // Limpa o formulário após o envio bem-sucedido
             setReportType('');
